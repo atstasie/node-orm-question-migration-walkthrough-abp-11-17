@@ -7,7 +7,7 @@ class Question{
     return new Promise(function(resolve) {
       const sql = `CREATE TABLE questions (id INTEGER PRIMARY KEY)`
       db.run(sql, function(){
-      resolve("This does nothing!")
+      resolve("question table created")
       })
     })
   }
